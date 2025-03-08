@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>無題のプロジェクト</name>
+	<gx:CascadingStyle kml:id="__managed_style_1FB56EB90F36A9C135C2">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_234F333A4136A9C0C947">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40a21f7b</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06D092BF2636A9C0C947">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1A67A9FB9236A9C0C947</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_234F333A4136A9C0C947</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2215D98F4B36A9BEED7A">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0B2B2AE5E936A9C135C3">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0EED24563436A9C135C2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FB56EB90F36A9C135C2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0B2B2AE5E936A9C135C3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1A67A9FB9236A9C0C947">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40a21f7b</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12EFF9086C36A9BEED7A">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0BE5830E3336A9BEED7A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12EFF9086C36A9BEED7A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2215D98F4B36A9BEED7A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0BD912AACA36A9BEA9A5">
+		<name>多分、筑後川</name>
+		<LookAt>
+			<longitude>130.3743707902011</longitude>
+			<latitude>33.28257132132127</latitude>
+			<altitude>30.06016060284543</altitude>
+			<heading>336.1498261039472</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>92090.00022654423</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0BE5830E3336A9BEED7A</styleUrl>
+		<LineString>
+			<coordinates>
+				130.3583254154954,33.14274741326485,0 130.3493594081262,33.17956329499486,0 130.3585459434604,33.21182071162158,0 130.3637902620442,33.22316387575547,0 130.3810689859142,33.23019123595346,0 130.3863874785563,33.24282429722891,0 130.4011583147863,33.2489093625348,0 130.4129284968414,33.25074779622764,0 130.4190110193861,33.26051592424983,0 130.425670220761,33.26922871194843,0 130.4371625106913,33.27159337882908,0 130.4476973921468,33.27861599278115,0 130.4570161122211,33.29082351132531,0 130.4544675253497,33.29991389348671,0 130.465216365395,33.30513037344138,0 130.4842402079514,33.30461863266082,0 130.4923970159571,33.31890905449077,0 130.503799043502,33.32999934422325,0 130.5163065357299,33.33334975968744,0 130.5291576485027,33.32742789683181,0 130.5378546545871,33.32373561627714,0 130.5478341110982,33.32615236727671,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0BF7CB981336A9C085DE">
+		<name>佐賀市</name>
+		<LookAt>
+			<longitude>130.2446827676253</longitude>
+			<latitude>33.26929277321184</latitude>
+			<altitude>5.871640874655018</altitude>
+			<heading>335.1499521915403</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>40818.17777655087</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06D092BF2636A9C0C947</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.2384737749214,33.3028643282388,0 130.2451684788758,33.2164124552411,0 130.340704318543,33.22705273721944,0 130.3247779239374,33.31944540523283,0 130.2384737749214,33.3028643282388,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="05CF3A467636A9C135C0">
+		<name>高木瀬</name>
+		<LookAt>
+			<longitude>130.2714226920525</longitude>
+			<latitude>33.29431287914139</latitude>
+			<altitude>6.534607776007042</altitude>
+			<heading>335.1192466370723</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>10303.83134632953</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0EED24563436A9C135C2</styleUrl>
+		<Point>
+			<coordinates>130.2909530739137,33.29463488325521,6.536665819228904</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

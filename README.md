@@ -1,39 +1,22 @@
-# sample-vue-leaflet
+# Vue3, Vuetify, Leafletを使用したサンプルコード
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue3, Vuetify, Leafletを使用したサンプルコードです。
+こちらの[ブログ記事](https://saga-web-engineer-blog.pages.dev/posts/vue-leaflet)のサンプルコードとして置いています。
 
-## Recommended IDE Setup
+## 動作環境
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+このリポジトリはVoltaを使用してNode.jsのバージョンを管理しているため別ツールを使用している方はNode.jsとNpmのバージョンを下記に設定してください。
 
-## Type Support for `.vue` Imports in TS
+- Node.js 22.11.0
+- Npm 10.9.0
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## コードを実行するには
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+モジュールのインストールをして起動させます。
+```bash
+npm i
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+```bash
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
