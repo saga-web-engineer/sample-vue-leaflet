@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>無題のプロジェクト</name>
+	<gx:CascadingStyle kml:id="__managed_style_2D74A7CB6C370D5F74A6">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c09f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18EEE7AD07370D5F74A6">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c09f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_08664C5CF6370D5F74A6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18EEE7AD07370D5F74A6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2D74A7CB6C370D5F74A6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="08717CA583370D5F4530">
+		<name>だいたい神埼あたり</name>
+		<LookAt>
+			<longitude>130.323062772013</longitude>
+			<latitude>33.29026180895273</latitude>
+			<altitude>5.410486277953954</altitude>
+			<heading>335.1414581299319</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>26091.01395741105</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08664C5CF6370D5F74A6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						130.3722586218078,33.31511720867586,0 130.3793093277945,33.35901526065744,0 130.336057666942,33.35348493578787,0 130.3114683847785,33.31735260499754,0 130.3722586218078,33.31511720867586,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
