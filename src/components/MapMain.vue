@@ -37,48 +37,49 @@ const onMapReady = (map: L.Map) => {
 };
 
 const handleFileDrop = (e: DragEvent) => {
-  const file = e.dataTransfer?.files[0];
-  if (!file) return;
-  const reader = new FileReader();
-  const parser = new DOMParser();
-  const fileName = file.name;
-  const fileSize = file.size;
-  // 今回は10MBで設定
-  const MAX_KML_SIZE_MB = 10;
-  // 0.1MBで設定したときに小数点を省くため
-  const MAX_KML_SIZE_BYTES = Math.trunc(MAX_KML_SIZE_MB * 1024 ** 2);
+  const files = e.dataTransfer?.files;
+  for (const file of files ?? []) {
+    const reader = new FileReader();
+    const parser = new DOMParser();
+    const fileName = file.name;
+    const fileSize = file.size;
+    // 今回は10MBで設定
+    const MAX_KML_SIZE_MB = 10;
+    // 0.1MBで設定したときに小数点を省くため
+    const MAX_KML_SIZE_BYTES = Math.trunc(MAX_KML_SIZE_MB * 1024 ** 2);
 
-  // アップロードしたKMLファイルが設定された容量を超えていた場合
-  if (fileSize > MAX_KML_SIZE_BYTES) {
-    message.value = `ファイルサイズが${MAX_KML_SIZE_MB}MBを超えているためアップロードできません。`;
-    isDialogOpen.value = true;
-    return;
-  }
-
-  reader.onload = (e: ProgressEvent<FileReader>) => {
-    const kmlContent = e.target?.result;
-    if (typeof kmlContent === 'string') {
-      const kmlDocument = parser.parseFromString(kmlContent, 'text/xml');
-      const perseError = kmlDocument.querySelector('parsererror');
-      // パースできないファイル形式または拡張子が.kmlではなかったら
-      if (perseError || !fileName.endsWith('.kml')) {
-        message.value = `KMLファイルの解析に失敗しました。`;
-        isDialogOpen.value = true;
-        return;
-      }
-      const geoJson = kml(kmlDocument);
-      const newGeoJsonData: FeatureCollection<Geometry | null, GeoJsonProperties> = {
-        type: 'FeatureCollection',
-        features: [...(geoJsonData.value?.features || []), ...geoJson.features],
-      };
-
-      geoJsonData.value = newGeoJsonData;
+    // アップロードしたKMLファイルが設定された容量を超えていた場合
+    if (fileSize > MAX_KML_SIZE_BYTES) {
+      message.value = `ファイルサイズが${MAX_KML_SIZE_MB}MBを超えているためアップロードできません。`;
+      isDialogOpen.value = true;
+      return;
     }
-  };
 
-  reader.readAsText(file);
-  message.value = 'KMLファイルのアップロードに成功しました。';
-  isDialogOpen.value = true;
+    reader.onload = (e: ProgressEvent<FileReader>) => {
+      const kmlContent = e.target?.result;
+      if (typeof kmlContent === 'string') {
+        const kmlDocument = parser.parseFromString(kmlContent, 'text/xml');
+        const perseError = kmlDocument.querySelector('parsererror');
+        // パースできないファイル形式または拡張子が.kmlではなかったら
+        if (perseError || !fileName.endsWith('.kml')) {
+          message.value = `KMLファイルの解析に失敗しました。`;
+          isDialogOpen.value = true;
+          return;
+        }
+        const geoJson = kml(kmlDocument);
+        const newGeoJsonData: FeatureCollection<Geometry | null, GeoJsonProperties> = {
+          type: 'FeatureCollection',
+          features: [...(geoJsonData.value?.features || []), ...geoJson.features],
+        };
+
+        geoJsonData.value = newGeoJsonData;
+      }
+    };
+
+    reader.readAsText(file);
+    message.value = 'KMLファイルのアップロードに成功しました。';
+    isDialogOpen.value = true;
+  }
 };
 
 onMounted(() => {
